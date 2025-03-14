@@ -2,42 +2,24 @@
 
 ## Overview
 
-This project demonstrates how to utilize the DeepSeek Coder models within Google Colab. DeepSeek Coder is a series of code language models trained on extensive code and natural language datasets, supporting various programming languages and tasks such as code completion and infilling.&#8203;:contentReference[oaicite:0]{index=0}
+This project demonstrates how to use **DeepSeek Coder** models in **Google Colab**. DeepSeek Coder is a series of advanced language models trained on extensive code and natural language datasets. These models can perform **code completion, code infilling, and support multiple programming languages**, making them useful for developers and AI researchers.
 
 ## Features
 
-- **Code Completion**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
-- **Code Infilling**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-- **Support for Multiple Programming Languages**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+- **Code Completion**: Predicts the next lines of code based on the given context.
+- **Code Infilling**: Fills in missing sections within existing code structures.
+- **Multi-Language Support**: Works with multiple programming languages, including **Python, JavaScript, Java, and more**.
+- **Transformer-based Model**: Uses DeepSeek's pre-trained models for efficient code understanding.
 
 ## Getting Started
 
-To get started with DeepSeek Coder in Google Colab:
+### Prerequisites
 
-1. **Open the Notebook**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
-2. **Run the Cells**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+Before running the notebook, ensure you have a Google account and access to **Google Colab**.
 
-## Dependencies
+### Installation
 
-The notebook requires the following Python packages:
+The required dependencies are installed within the Colab notebook itself. However, if you are running the model locally, install the required packages using:
 
-- `transformers`: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-- `torch`: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
-
-:contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
-
-## Usage
-
-The notebook demonstrates:
-
-- **Loading DeepSeek Coder Models**: :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
-- **Performing Code Completion**: :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
-- **Performing Code Infilling**: :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
-
-## Acknowledgements
-
-:contentReference[oaicite:23]{index=23} :contentReference[oaicite:24]{index=24}&#8203;:contentReference[oaicite:25]{index=25}
-
-## License
-
-:contentReference[oaicite:26]{index=26} :contentReference[oaicite:27]{index=27}&#8203;:contentReference[oaicite:28]{index=28}
+```bash
+pip install torch transformers
